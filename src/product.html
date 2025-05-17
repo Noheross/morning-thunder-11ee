@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Fashion Guide</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <div class="logo">Fashion Guide</div>
+            <div class="nav-links">
+                <a href="/category/shoes">Shoes</a>
+                <a href="/category/t_shirt">T-Shirts</a>
+                <a href="/category/pants">Pants & Shorts</a>
+                <a href="/category/hoodies">Hoodies & Sweaters</a>
+                <a href="/category/jackets">Jackets</a>
+                <a href="/category/accessories">Accessories</a>
+                <a href="/category/others">Others</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="product-detail">
+        <div class="product-container">
+            <div class="product-gallery">
+                <div class="main-image-container">
+                    <button class="nav-btn prev-btn">&lt;</button>
+                    <img id="mainImage" src="" alt="Product Image">
+                    <button class="nav-btn next-btn">&gt;</button>
+                </div>
+                <div class="qc-images-container">
+                    <button class="nav-btn prev-btn">&lt;</button>
+                    <div class="qc-images-scroll">
+                        <!-- QC images will be loaded here dynamically -->
+                    </div>
+                    <button class="nav-btn next-btn">&gt;</button>
+                </div>
+            </div>
+            <div class="product-info">
+                <h1 id="productTitle"></h1>
+                <p class="price" id="productPrice"></p>
+                <p class="shop-name" id="shopName"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fashion Guide. All rights reserved.</p>
+    </footer>
+
+    <script src="/product.js"></script>
+</body>
+</html> 

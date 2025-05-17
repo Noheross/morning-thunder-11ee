@@ -9,8 +9,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "morning-thunder-11ee-d1",
-      "database_id": "7481568b-55fd-4b16-ac46-1d338799e013"
+      "database_name": "products",
+      "database_id": "0afc8ec5-0fca-44b0-9ed6-4b04a147f79a"
     }
   ],
 }
