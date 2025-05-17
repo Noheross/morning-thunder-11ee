@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-04-01",
+  "main": "src/index.ts",
+  "name": "morning-thunder-11ee",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "7481568b-55fd-4b16-ac46-1d338799e013",
+      "database_name": "morning-thunder-11ee-d1"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  }
+}
