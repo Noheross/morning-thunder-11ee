@@ -410,20 +410,11 @@ export default {
 
             try {
                 let productList: Product[];
-                if (category) {
-                    productList = await db.select()
-                        .from(products)
-                        .where(eq(products.category, parseInt(category)))
-                        .limit(limit)
-                        .offset(offset)
-                        .all();
-                } else {
-                    productList = await db.select()
-                        .from(products)
-                        .limit(limit)
-                        .offset(offset)
-                        .all();
-                }
+                productList = await db.select()
+                .from(products)
+                .limit(limit)
+                .offset(offset)
+                .all();
                 return Response.json({ products: productList });
             } catch (error) {
                 console.error('Database error:', error);
